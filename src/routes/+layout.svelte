@@ -38,9 +38,10 @@
 		'sunset'
 	];
 </script>
+
 <svelte:head>
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@yosshipaopao">
+	<meta name="twitter:site" content="@yosshipaopao" />
 </svelte:head>
 
 <div class="drawer">

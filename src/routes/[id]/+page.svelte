@@ -23,6 +23,12 @@
 
 <svelte:head>
 	<title>{data.title}</title>
+	<meta name="og:title" content={data.title} />
+	<meta name="og:description" content={data.description ?? data.title} />
+	<meta name="og:sitename" content="blog.yosshipaopao.com" />
+	<meta name="og:type" content="article" />
+	<meta name="og:url" content={`https://blog.yosshipaopao.com/${data.id}`} />
+	<meta name="og:sitename" content="YOSSHIPAOPAOのぶろぐ" />
 	<meta name="description" content={data.description ?? data.title} />
 	<meta name="keywords" content={data.tags.join(',')} />
 </svelte:head>

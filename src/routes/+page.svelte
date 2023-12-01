@@ -5,6 +5,13 @@
 <svelte:head>
 	<title>YOSSHIPAOPAOのぶろぐ</title>
 	<meta name="description" content="YOSSHIPAOPAOが適当なことを書きます" />
+
+	<meta name="og:title" content="YOSSHIPAOPAOのぶろぐ" />
+	<meta name="og:description" content="YOSSHIPAOPAOが適当なことを書きます" />
+	<meta name="og:sitename" content="blog.yosshipaopao.com" />
+	<meta name="og:type" content="website" />
+	<meta name="og:url" content="https://blog.yosshipaopao.com/" />
+	<meta name="og:sitename" content="YOSSHIPAOPAOのぶろぐ" />
 </svelte:head>
 <div class="flex flex-col gap-10">
 	{#each routes as route}
