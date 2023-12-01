@@ -31,11 +31,16 @@ for (const path in paths) {
 }
 export default articles;
 
-export const routes = Object.keys(articles).map(id => ({
-	id,
-	description: articles[id].description,
-	title: articles[id].title,
-	published: articles[id].published,
-	tags: articles[id].tags,
-	date: articles[id].date
-}) as Routes).sort((a, b) => b.date.getTime() - a.date.getTime());
+export const routes = Object.keys(articles)
+	.map(
+		(id) =>
+			({
+				id,
+				description: articles[id].description,
+				title: articles[id].title,
+				published: articles[id].published,
+				tags: articles[id].tags,
+				date: articles[id].date
+			}) as Routes
+	)
+	.sort((a, b) => b.date.getTime() - a.date.getTime());

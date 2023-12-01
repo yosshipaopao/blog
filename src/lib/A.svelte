@@ -1,15 +1,23 @@
-<script lang='ts'>
+<script lang="ts">
 	const href: string = $$props.href;
 	let data: HTMLAnchorElement;
-	const youtubeId = href.replace('https://www.youtube.com/watch?v=', '').replace('https://youtu.be/', '').replace('https://www.youtube.com/embed/', '');
+	const youtubeId = href
+		.replace('https://www.youtube.com/watch?v=', '')
+		.replace('https://youtu.be/', '')
+		.replace('https://www.youtube.com/embed/', '');
 </script>
 
 {#if data?.innerText === href}
-	{#if !youtubeId.startsWith("https://")}
-		<iframe width='560' height='315' src={"https://www.youtube-nocookie.com/embed/"+youtubeId}
-						title='YouTube video player' frameborder='0'
-						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-						allowfullscreen></iframe>
+	{#if !youtubeId.startsWith('https://')}
+		<iframe
+			width="560"
+			height="315"
+			src={'https://www.youtube-nocookie.com/embed/' + youtubeId}
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen
+		></iframe>
 	{/if}
 {/if}
 

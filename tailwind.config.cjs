@@ -9,8 +9,8 @@ const config = {
 		extend: {}
 	},
 	daisyui: {
-		themes:true,
-		darkTheme: "night"
+		themes: true,
+		darkTheme: 'night'
 	},
 	plugins: [typography, daisyui]
 };
