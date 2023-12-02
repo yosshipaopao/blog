@@ -7,12 +7,13 @@
 	import 'highlight.js/styles/github.css';
 	import typescript from 'highlight.js/lib/languages/typescript';
 	import A from '$lib/A.svelte';
+	import IMG from '$lib/IMG.svelte';
 
 	export let data: PageData;
 
 	const plugins: Plugin[] = [
 		{
-			renderer: { a: A }
+			renderer: { a: A, img: IMG }
 		},
 		gfmPlugin(),
 		{

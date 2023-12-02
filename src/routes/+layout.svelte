@@ -47,9 +47,12 @@
 <div class="drawer">
 	<input id="my-drawer" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content">
-		<div class="navbar bg-neutral sticky top-0 z-10">
+		<div class="navbar bg-neutral sticky top-0 z-10 max-w-full">
 			<div class="flex-1">
-				<a href="/" class="btn btn-ghost text-xl">YOSSHIPAOPAOのぶろぐ</a>
+				<a href="/" class="btn btn-ghost text-xl">
+					<span class="sm:hidden">YOSSHIPAOPAO</span>
+					<span class="hidden sm:inline">YOSSHIPAOPAOのぶろぐ</span>
+				</a>
 			</div>
 			<div class="flex-none">
 				<div class="dropdown dropdown-end">
@@ -87,9 +90,9 @@
 				</label>
 			</div>
 		</div>
-		<main class="min-h-screen">
-			<div class="w-full max-w-5xl mx-auto my-6 px-6 flex gap-2 justify-center">
-				<article class="w-full prose max-w-2xl">
+		<main class="min-h-screen max-w-screen-lg">
+			<div class="w-full max-w-5xl mx-auto my-6 px-0 sm:px-6 flex gap-2 justify-center">
+				<article class="w-full prose prose-sm max-w-screen-2xl">
 					<slot />
 				</article>
 				<aside class="ml-auto w-1/3 h-screen hidden lg:block">
@@ -98,7 +101,7 @@
 			</div>
 		</main>
 	</div>
-	<div class="drawer-side">
+	<div class="drawer-side z-20">
 		<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
 		<Menu mode="drawer" />
 	</div>

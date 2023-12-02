@@ -17,7 +17,7 @@
 	const baseClass =
 		mode === 'menu'
 			? 'menu w-full bg-base-200 rounded-box sticky'
-			: 'menu max-w-sm p-4 min-h-full bg-base-200 text-base-content';
+			: 'menu max-w-sm w-60 p-4 min-h-full bg-base-200 text-base-content';
 </script>
 
 <ul class={baseClass}>
