@@ -1,1 +1,1 @@
-<img class="max-w-[100vw]" {...$$props} />
+<img class="max-w-[100vw] w-full" {...$$props} />

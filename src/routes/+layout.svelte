@@ -90,7 +90,7 @@
 				</label>
 			</div>
 		</div>
-		<main class="min-h-screen max-w-screen-lg">
+		<main class="min-h-screen max-w-screen-lg mx-auto">
 			<div class="w-full max-w-5xl mx-auto my-6 px-0 sm:px-6 flex gap-2 justify-center">
 				<article class="w-full prose prose-sm max-w-screen-2xl">
 					<slot />
