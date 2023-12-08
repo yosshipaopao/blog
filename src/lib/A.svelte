@@ -22,6 +22,6 @@
 	{/if}
 {/if}
 
-<a {href} {...$$props} bind:this={data}>
+<a {href} {...$$props} bind:this={data} target="_blank">
 	<slot />
 </a>
