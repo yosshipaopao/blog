@@ -5,7 +5,6 @@
 <svelte:head>
 	<title>YOSSHIPAOPAOのぶろぐ</title>
 	<meta name="description" content="YOSSHIPAOPAOが適当なことを書きます" />
-
 	<meta name="og:title" content="YOSSHIPAOPAOのぶろぐ" />
 	<meta name="og:description" content="YOSSHIPAOPAOが適当なことを書きます" />
 	<meta name="og:sitename" content="blog.yosshipaopao.com" />
@@ -19,9 +18,9 @@
 			href="/{route.id}"
 			class="card card-side bg-base-300 hover:border border-primary shadow-xl no-underline"
 		>
-			<figure class="w-48 object-cover"><img src="/no-image.webp" alt="Movie" /></figure>
+			<figure class="w-48 object-cover"><img src={route.image??"/no-image.webp"} alt="Movie" /></figure>
 			<div class="card-body p-2">
-				<h2 class="card-title my-5">{route.title}</h2>
+				<h2 class="card-title !my-2">{route.title}</h2>
 				{#if route.description}
 					<p>{route.description}</p>
 				{/if}
