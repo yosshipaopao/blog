@@ -32,8 +32,18 @@ date: 2023-12-08
 仕方ないなぁ～そこに名札があるでしょ
 
 これをこうして、えいっ
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <h1 style="font-size: 100px">📛</h1>
 
 # _**TOFU ON FIRE📛**_
@@ -67,22 +77,31 @@ AJL(後述)で高１で37位
 
 数学とかが得意で、工業情報数理の点数がそこまで低くなければ**情報科の人でなくても**楽しめると思います！！！
 
-有名なものだと日本だと[AtCoder](https://atcoder.jp)、世界最高峰の競技プログラミングサイトです。
+実際に始めるとなると 、
+日本だと[AtCoder](https://atcoder.jp)、世界最高峰の競技プログラミングサイトです。
 
 ---
 ここでは[AtCoder Junior League(AJL)](https://atcoder.jp/contests/ajl2023)というものをやってます！！！
 
-中学や高校ごとにチーム分けして競ってます。
+中学や高校ごとにチーム分けして普段のコンテストの成績で競ってます。
 
-われらが東京工業大学科学技術高等学校は52位(12/8現在)...ほとんど僕だけです、、、
+われらが東京工業大学科学技術高等学校は53位(12/14現在)...ほとんど僕だけです、、、
+    
+![53位](/images/tofu-ad/JniorLeague.png)
 
-![52位](/images/tofu-ad/JniorLeague.png)
+今年度はもう数回しかありませんが、来年度もしあったら一緒にやってくれる人募集中！
 
-お助け募集中
+あと1000人に到達したら現地開催の大会ができるみたいな話を聞いたので今からでも！！！！！！
+
+https://twitter.com/atcoder/status/1734059295308931239
 
 ---
 
-あとは高校２年生以下限定ですが[情報オリンピック](https://www.ioi-jp.org/)があります。
+や、高校２年生以下限定ですが[情報オリンピック](https://www.ioi-jp.org/)があります。
+
+ほかにも、東工大主催の[Super Con](https://www.gsic.titech.ac.jp/supercon/main/attwiki/index.php) というスパコンを使った競技プログラミング大会や、
+
+海外だと、[Codeforces](https://codeforces.com/)や[TopCoder](https://www.topcoder.com/)、[IOI](https://ioinformatics.org/)(JOIの世界大会版 )などがあります。
 
 
 # やったらどうなる！？！？
@@ -96,7 +115,5 @@ AJL(後述)で高１で37位
 詳しくは[この記事](https://programming-school.net/情報オリンピックの成績が特別推薦入試の推薦条/)
 を見ればわかりますが情報オリンピックの成績が推薦の条件（や評価基準の一つ）になってる大学が多々あります！！！！
 
-われらが東工大は[Super Con](https://www.gsic.titech.ac.jp/supercon/main/attwiki/index.php)
-というものをやってて、それが総合型選抜に使えると公式で言ってるのでこちらも参考に、、、
-（Super Conはスパコンを使った競技プログラミング大会です！）
+ほかにも例えば、われらが東工大は[Super Con](https://www.gsic.titech.ac.jp/supercon/main/attwiki/index.php)を主催してて、それが総合型選抜に使えると公式で言ってたり、、、
 

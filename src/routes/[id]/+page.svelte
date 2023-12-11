@@ -18,6 +18,7 @@
 	<meta name='og:sitename' content='YOSSHIPAOPAOのぶろぐ' />
 	<meta name='description' content={data.description ?? data.title} />
 	<meta name='keywords' content={data.tags.join(',')} />
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </svelte:head>
 <div class='hero bg-base-200 mb-6 rounded-xl'>
 	<div class='hero-content text-center'>
