@@ -1,7 +1,7 @@
 ---
 title: このブログについて
 published: true
-tags: [blog,tech]
+tags: [blog, tech]
 date: 2023-12-02
 ---
 
@@ -15,24 +15,27 @@ date: 2023-12-02
 
 - [SvelteKit](https://kit.svelte.dev/)
 
-    JavaScriptフレームワーク
+  JavaScriptフレームワーク
+
 - [Tailwind CSS](https://tailwindcss.com/)
 - [daisyUI](https://daisyui.com/)
 
-    CSSとかを簡単に書けるようにするやつ 
+  CSSとかを簡単に書けるようにするやつ
 
-    自分で実装するのがめんどくさいのでこれで行きます
+  自分で実装するのがめんどくさいのでこれで行きます
+
 - [cloudflare pages](https://pages.cloudflare.com/)
 
-    無料！！！！！
-    
-    無制限！！！！！！！！！！！！！
-    
-    最高！！！！！！！！！！！！！！！！！！
-    
-    のホスティングサービスです。
+  無料！！！！！
+
+  無制限！！！！！！！！！！！！！
+
+  最高！！！！！！！！！！！！！！！！！！
+
+  のホスティングサービスです。
 
 # このサイトのソースコード
+
 [GitHub](https://github.com/yosshipaopao/blog)にすべておいてきた
 
 基本的にはMarkdownファイルを追加するだけで記事が追加できるようになっています。
