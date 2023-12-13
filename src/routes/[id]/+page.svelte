@@ -3,7 +3,7 @@
 	import { Markdown } from 'svelte-exmarkdown';
 	import {plugins} from '$lib/MDPlugin';
 
-	//import 'highlight.js/styles/github-dark.min.css';
+	import 'highlight.js/styles/github-dark.min.css';
 
 	export let data: PageData;
 </script>
