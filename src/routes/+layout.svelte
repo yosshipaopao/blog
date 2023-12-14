@@ -106,7 +106,7 @@
 		</div>
 		<main class="min-h-screen max-w-screen-lg mx-auto">
 			<div class="w-full max-w-5xl mx-auto my-6 px-0 sm:px-6 flex gap-2 justify-center">
-				<article class="w-full prose prose-sm sm:prose-lg max-w-screen-2xl">
+				<article class="w-full prose prose-xl prose-neutral sm:prose-xl max-w-screen-2xl">
 					<slot />
 				</article>
 				<aside class="ml-auto w-1/3 h-screen hidden lg:block">
