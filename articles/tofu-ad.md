@@ -3,7 +3,7 @@ title: 初めまして。競技プログラミングの宣伝に来ました。
 description: 東工大附属のアドベントカレンダーDAY15
 published: true
 tags: [tech,tofu]
-date: 2023-12-08
+date: 2023-12-15
 ---
 
 ## この記事について
