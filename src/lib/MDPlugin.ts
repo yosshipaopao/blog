@@ -15,10 +15,8 @@ export const plugins: Plugin[] = [
 	gfmPlugin(),
 	{
 		rehypePlugin: [rehypeRaw]
-	}, {
-		rehypePlugin: [
-			rehypeHighlight,
-			{ ignoreMissing: true, languages: { typescript, xml, python } }
-		]
+	},
+	{
+		rehypePlugin: [rehypeHighlight, { ignoreMissing: true, languages: { typescript, xml, python } }]
 	}
 ];

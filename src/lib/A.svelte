@@ -21,7 +21,7 @@
 		></iframe>
 	{:else if href.startsWith('https://twitter.com')}
 		<blockquote class="twitter-tweet">
-			<a {href}></a>
+			<a {href}>{href}</a>
 		</blockquote>
 	{/if}
 {/if}
