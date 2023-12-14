@@ -2,7 +2,7 @@
 title: 初めまして。競技プログラミングの宣伝に来ました。
 description: 東工大附属のアドベントカレンダーDAY15
 published: true
-tags: []
+tags: [tech,tofu]
 date: 2023-12-08
 ---
 
@@ -138,7 +138,7 @@ https://twitter.com/atcoder/status/1734059295308931239
 
 海外だと、[Codeforces](https://codeforces.com/)や[TopCoder](https://www.topcoder.com/)、[IOI](https://ioinformatics.org/)(JOIの世界大会版 )などがあります。
 
-# やったらどうなる！？！？
+# メリット？
 
 とーふ生はどーせ**現金**な性格なので報酬がないと始めることはないでしょう。
 
