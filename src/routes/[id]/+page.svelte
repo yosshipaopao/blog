@@ -9,6 +9,7 @@
 	export let data: PageData;
 
 	onMount(() => {
+		// eslint-disable-next-line no-undef
 		twttr.widgets.load();
 	});
 </script>
